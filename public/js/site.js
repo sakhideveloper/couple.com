@@ -3,6 +3,8 @@ jQuery(window).load(function() {
 	//PRELOADER
 	jQuery('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
 });
+
+
 jQuery(document).ready(function($) {
 	$('body').on('click', '.user-login', function(event) {
 		$('body').find('.register-form-div').hide();
@@ -388,7 +390,7 @@ jQuery(document).ready(function($){
 	$(".blog_main_sec .pagination > li").removeClass("active disabled");
   });
 });
-
+//this is test only s
 jQuery(document).ready(function($){
   $(".blog_main_sec .pagination > li:nth-child(2) > a").click(function(){
 	$(".blog_main_sec .pagination > li:nth-child(1)").addClass("hide");
